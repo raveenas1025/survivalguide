@@ -1,0 +1,31 @@
+.full-w {
+    width: 100%;
+}
+
+.full-h {
+    height: 100%;
+}
+
+#home {
+    background-color: #F59E78;
+}
+
+#nine {
+    background-color: #F7AE91;
+}
+
+#ten {
+    background-color: #F9BFA7;
+}
+
+#eleven {
+    background-color: #FACEBD;
+}
+
+#twelve {
+    background-color: #FCDFD3;
+}
+
+h1 {
+    text-align: center;
+}
