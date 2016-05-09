@@ -6,6 +6,30 @@
     height: 100%;
 }
 
+.transparent {
+    background: rgba(224, 76, 50, .8);
+}
+
+.transparentH {
+    background: rgba(0, 0, 0, .3);
+}
+
+.pillz {
+    font-size: 150%;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .nav>li>a:focus,
+.navbar-default .nav>li>a:hover {
+    color: #E04C32;
+}
+
 #home {
     background-color: #F59E78;
 }
