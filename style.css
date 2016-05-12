@@ -38,9 +38,14 @@
     background-color: #F7AE91;
 }
 
+#bgn {
+    background-color: #F7AE91;
+}
+
 #ten {
     background-color: #F9BFA7;
 }
+
 #bgt {
     background-color: #F9BFA7;
 }
@@ -49,15 +54,18 @@
     background-color: #FACEBD;
 }
 
+#bge {
+    background-color: #FACEBD;
+}
+
 #twelve {
+    background-color: #FCDFD3;
+}
+#bg {
     background-color: #FCDFD3;
 }
 
 h1 {
     text-align: center;
-}
-
-header {
-  
 }
 
