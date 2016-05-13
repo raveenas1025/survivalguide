@@ -68,6 +68,7 @@
 h1 {
     text-align: center;
 }
+
 div.title{
     background-image: url("sep11.JPG")
     display: table;
@@ -76,3 +77,7 @@ div.title{
     background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('key.JPG') no-repeat center;
     background: cover;
 }
+/*
+HI- Jos
+*/
+
