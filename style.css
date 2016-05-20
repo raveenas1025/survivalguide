@@ -81,6 +81,25 @@ h1, h2, h3, h4, h5, p,  ul {
     font-family: Comic Sans MS;
 }
 
+
+div.josie{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform: rotate(-30deg);
+    -webkit-animation-name: cholera; 
+    -webkit-animation-duration: 4s; 
+    animation-name: cholera;
+    animation-duration: 100s;
+}
+
+
+@-webkit-keyframes cholera {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:1900px;}
+
+}
+
 /*
 HI- Jos
 */
