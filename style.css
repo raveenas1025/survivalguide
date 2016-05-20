@@ -88,15 +88,16 @@ div.josie{
     position: relative;
     transform: rotate(-30deg);
     -webkit-animation-name: cholera; 
-    -webkit-animation-duration: 4s; 
+    -webkit-animation-duration: 100s; 
     animation-name: cholera;
-    animation-duration: 100s;
+    animation-duration: 10s;
 }
 
 
 @-webkit-keyframes cholera {
-    0%   {left:0px; top:0px;}
-    25%  {left:0px; top:1900px;}
+    0%   {left:0px; top:-900px;}
+    25%  {left:0px; top:1000px;}
+    50%  {left:0px; top:-900px};
 
 }
 
