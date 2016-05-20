@@ -77,7 +77,9 @@ div.title {
     background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('key.JPG') no-repeat center;
     background: cover;
 }
-
+h1, h2, h3, h4, h5, p,  ul {
+    font-family: Comic Sans MS;
+}
 
 /*
 HI- Jos
