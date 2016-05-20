@@ -77,41 +77,26 @@ div.title {
     background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('key.JPG') no-repeat center;
     background: cover;
 }
-div.josie {
-  position:relative;
-  height:281px;
-  width:450px;
-  margin:0 auto;
+
+
+
+div.josie{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform: rotate(-30deg);
+    -webkit-animation-name: cholera; 
+    -webkit-animation-duration: 4s; 
+    animation-name: cholera;
+    animation-duration: 100s;
 }
 
-div.josie img {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+
+@-webkit-keyframes cholera {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:1900px;}
+
 }
-
-div.josie img.top:hover {
-  opacity:0;
-}
-/*div.josie{*/
-/*    width: 100px;*/
-/*    height: 100px;*/
-/*    position: relative;*/
-    -webkit-animation-name: cholera; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
-/*    animation-name: cholera;*/
-/*    animation-duration: 4s;*/
-/*}*/
-
-
-/*@-webkit-keyframes cholera {*/
-/*    0%   {left:0px; top:0px;}*/
-/*    25%  {left:200px; top:0px;}*/
-
-/*}*/
 
 /*
 HI- Jos
