@@ -26,9 +26,17 @@
     <link rel="stylesheet" href="slideanim.css" type="text/css">
 
     <link rel="stylesheet" href="style.css" type="text/css">
-
-
-
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script>
+    $(function() {
+      $('button').(function() {
+        $("#bgp").fadeIn("slow"); //this is for the banner to appear when the user clicks the button, it is put on the top so it is the first thing that loads
+        // this takes what the user typed in the text input and puts it in the h1 inside of the div     
+        $("#name").html();
+     
+      });
+    });
+  </script>
 
 </head>
 
@@ -57,19 +65,16 @@
         </div>
     </nav>
 
-    <header>
+    <div class="ninth">
         <img src="img/key.JPG" style="display: table;
     width: 100%;
     height: 100%;
     background: url('key.JPG') no-repeat center;
-    background: cover;"></img>
-    </header>
-
-    <h1>Ninth Grade</h1>
-    <div class="container" id="bgn">
-        <p>Welcome to the ninth grade training session. Here you will go through intense militarialistic drills in order to prepare yourself for the software engineering world. Get Ready. Leave no programmer behind.</p>
+    background: cover;" >
+    
+    <h1 id="omg"><span>Ninth Grade  <br />Welcome to the ninth grade training session. Here you will go through intense militarialistic drills in order to prepare yourself for the software engineering world. Get Ready. Leave no  programmer behind.</span></h1>
+    
     </div>
-
     <h1>Scratch</h1>
     <br>
     <div class="container" id="bgn">
