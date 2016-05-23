@@ -2,6 +2,14 @@
 <html>
 
 <head>
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script>
+    $(function() {
+      $('#omg').fadeOut(2000);
+      $('#omg').fadeIn(2000);
+
+    });
+  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Survival Guide</title>
@@ -19,16 +27,45 @@
 
   <link rel="stylesheet" href="style.css" type="text/css">
 </head>
+<style>
+  /*small*/
+  
+  @media only screen and (min-width: 768px) {
+    #omg {
+      font-size: 40px;
+    }
+  }
+  /*big*/
+  
+  @media only screen and (min-width: 992px) {
+    #omg {
+      font-size: 100px;
+    }
+  }
+</style>
 
 <body id="eleven">
-  <div class="title">
+  <!--<div class="title">-->
+  <!--  <img src="img/sep11.JPG" style="display: table;-->
+  <!--  width: 100%;-->
+  <!--  height: 100%;-->
+  <!--  background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('key.JPG') no-repeat center;-->
+  <!--  background: cover;">-->
+  <!--</div>-->
+
+  <div class="eleven">
     <img src="img/sep11.JPG" style="display: table;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('key.JPG') no-repeat center;
-    background: cover;">
+     width: 100%;
+     height: 100%;
+     background: url('img/sep11.JPG') no-repeat center;
+     background: cover;">
+    <h1 id="omg"><span>Eleventh Grade<br/>EVEN MORE TRAINING. I suggest you check out tenth grade training before entering here.</span></h1>
   </div>
-  
+
+
+
+
+
   <nav class="navbar transparent navbar-default navbar-fixed-bottom">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -56,10 +93,10 @@
   <br>
   <br>
 
-  <h1>Eleventh Grade</h1>
-  <div class="container" id="bge">
-    <h3>EVEN MORE TRAINING. I suggest you check out tenth grade training before entering here.</h3>
-  </div>
+  <!--<h1>Eleventh Grade</h1>-->
+  <!--<div class="container" id="bge">-->
+  <!--  <h3>EVEN MORE TRAINING. I suggest you check out tenth grade training before entering here.</h3>-->
+  <!--</div>-->
 
   <h1>Git & Github</h1>
   <div class="container" id="bge" style="text-align: center;">
@@ -86,4 +123,5 @@
   </div>
 
 </body>
+
 </html>

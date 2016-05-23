@@ -2,6 +2,14 @@
 <html>
 
 <head>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        $(function() {
+            $('#omg').fadeOut(2000);
+            $('#omg').fadeIn(2000);
+
+        });
+    </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -22,15 +30,24 @@
 
 
 
-<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-  <script>
-    $(function() {
-      $('h2').fadeOut(2000);
-      $('h2').fadeIn(2000);
-
-    });
-  </script>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 </head>
+<style>
+    /*small*/
+    
+    @media only screen and (min-width: 768px) {
+        #omg {
+            font-size: 60px;
+        }
+    }
+    /*big*/
+    
+    @media only screen and (min-width: 992px) {
+        #omg {
+            font-size: 100px;
+        }
+    }
+</style>
 
 <body id="nine">
 
@@ -59,29 +76,26 @@
 
 
 
-<div class="image">
+    <!--<div class="image">-->
 
-        <img src="img/key.JPG" ></img>
-      
-      <h2><span>Ninth Grade<span class='spacer'></span><br /><span class='spacer'></span>Welcome to the ninth grade training session. Here you will go through intense militarialistic drills in order to prepare yourself for the software engineering world. Get Ready. Leave no programmer behind.</span></h2>
-     
-</div>
+    <!--        <img src="img/key.JPG" ></img>-->
 
+    <!--      <h2><span>Ninth Grade<span class='spacer'></span><br /><span class='spacer'></span>Welcome to the ninth grade training session. Here you will go through intense militarialistic drills in order to prepare yourself for the software engineering world. Get Ready. Leave no programmer behind.</span></h2>-->
 
-
-
-    <!--<header>-->
-    <!--    <img src="img/key.JPG" style="display: table;-->
-    <!--width: 100%;-->
-    <!--height: 100%;-->
-    <!--background: url('key.JPG') no-repeat center;-->
-    <!--background: cover;"></img>-->
-    <!--</header>-->
-
-    <!--<h1>Ninth Grade</h1>-->
-    <!--<div class="container" id="bgn">-->
-    <!--    <p>Welcome to the ninth grade training session. Here you will go through intense militarialistic drills in order to prepare yourself for the software engineering world. Get Ready. Leave no programmer behind.</p>-->
     <!--</div>-->
+
+
+
+    <div class="ninth">
+        <img src="img/key.JPG" style="display: table;
+     width: 100%;
+     height: 100%;
+     background: url('img/key.JPG') no-repeat center;
+     background: cover;">
+
+        <h1 id="omg"><span>Ninth Grade<br/>Welcome to the ninth grade training session. Here you will go through intense militarialistic drills in order to prepare yourself for the software engineering world. Get Ready. Leave no  programmer behind.</span></h1>
+
+    </div>
 
 
 
@@ -91,9 +105,16 @@
     <h1>Scratch</h1>
     <br>
     <div class="container" id="bgn">
-       <div class="row">
-  <div class="col-md-5"><iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/13987277/?autostart=false" frameborder="0" allowfullscreen></iframe></div>
-  <div class="col-md-2"> <p><img src="img/scratch.png" style="width:30px; height:30px">Scratch is used for those who are just starting web development, it helps you to understand conditionals. If you are struggling to use scratch, you can follow these tips:</p>
+        <div class="row">
+            <div class="col-md-6">
+                <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/13987277/?autostart=false" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="container" id="bgn">
+                <div class="col-md-6">
+                    <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/12429928/?autostart=false" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+                <p><img src="img/scratch.png" style="width:30px; height:30px">Scratch is used for those who are just starting web development, it helps you to understand conditionals. If you are struggling to use scratch, you can follow these tips:</p>
                 <ul>
                     <li>Look at other projects
                         <ul>
@@ -102,59 +123,59 @@
                     </li>
                     <li>Test different ideas</li>
                     <li>Plan before you build</li>
-                </ul></div>
-  <div class="col-md-5"> <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/12429928/?autostart=false" frameborder="0" allowfullscreen></iframe>
-</div>
-</div>
-          
-         
-    <h1>Robotics</h1>
-    <br>
-    <div class="container" id="bgn">
-        <div class="row">
-            <div class="col-sm-6">
-                <img src="img/roboticsfc.jpg" style="display: table;
+                </ul>
+            </div>
+
+        </div>
+
+
+        <h1>Robotics</h1>
+        <br>
+        <div class="container" id="bgn">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="img/roboticsfc.jpg" style="display: table;
     width: 100%;
     height: 100%;
     text-align: center;">
-            </div>
-            <div class="col-sm-6">
-                <p>Robotics is a great topic where you are able to see some of the code you make come to life, it is important to:</p>
-                <ul>
-                    <li>Plan what you want your robot to do </li>
-                    <li>Practice small steps before making the full action you want your robot to do.</li>
-                </ul>
-                <br>
-                <br>
-                <br>
-                <img src="img/robotics.JPG" style="
+                </div>
+                <div class="col-sm-6">
+                    <p>Robotics is a great topic where you are able to see some of the code you make come to life, it is important to:</p>
+                    <ul>
+                        <li>Plan what you want your robot to do </li>
+                        <li>Practice small steps before making the full action you want your robot to do.</li>
+                    </ul>
+                    <br>
+                    <br>
+                    <br>
+                    <img src="img/robotics.JPG" style="
     width: 50%;
     height: 50%;
     transform: rotate(90deg);">
+                </div>
             </div>
         </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    
-    <h1>Python</h1>
-    <br>
-    <div class="container" id="bgn">
-        <div class="row">
-            <div class="col-sm-6">
-                <img src="img/python.jpg" style="display: table;
+        <br>
+        <br>
+        <br>
+
+        <h1>Python</h1>
+        <br>
+        <div class="container" id="bgn">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="img/python.jpg" style="display: table;
     width: 100%;
     height: 100%;
     background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('key.JPG') no-repeat center;
     background: cover;">
-            </div>
-            <div class="col-sm-6">
-                <h4>Python is an interactive language, typically revolving around objects. It is considered simple to read, due to its lack of use of puncuation, unlike other languages.
+                </div>
+                <div class="col-sm-6">
+                    <h4>Python is an interactive language, typically revolving around objects. It is considered simple to read, due to its lack of use of puncuation, unlike other languages.
             than other languages.</h4>
+                </div>
             </div>
         </div>
-    </div>
 
 </body>
 
