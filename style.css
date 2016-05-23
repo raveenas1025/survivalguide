@@ -104,3 +104,31 @@ div.josie{
 /*
 HI- Jos
 */
+
+    .image { 
+   position: relative; 
+   width: 100%; 
+   display: table;
+    height: 100%;
+    background: url('key.JPG') no-repeat center;
+    background: cover;
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+   text-align: center;
+}
+    h2 span { 
+   color: white; 
+   font: bold 20px Helvetica, Sans-Serif; 
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 5px; 
+   text-align: center;
+}
+    h2 span.spacer {
+   padding:0 5px;
+}
